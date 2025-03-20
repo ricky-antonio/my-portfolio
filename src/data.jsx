@@ -13,10 +13,10 @@ import {
   project4,
   project5,
   project6,
+  profile2,
   profile3,
   profile4,
   profile5,
-  profile6,
   figma,
   sketch,
   xd,
@@ -37,7 +37,6 @@ export const menu = [
   { name: "Services" },
   { name: "Skill" },
   { name: "Projects" },
-  { name: "Testimonial" },
   { name: "Contact" },
 ];
 
@@ -321,28 +320,28 @@ export const socialHandles = [
 
 export const testimonials = [
   {
-    avatar: profile3,
+    avatar: profile2,
     name: "Samuel Eze",
     review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
   },
   {
-    avatar: profile4,
+    avatar: profile3,
     name: "Emmanuel Joseph",
     review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
   },
   {
-    avatar: profile5,
+    avatar: profile4,
     name: "Gloria Chiwendu",
     review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
   },
   {
-    avatar: profile6,
+    avatar: profile5,
     name: "Precious Stone",
     review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
