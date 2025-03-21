@@ -1,6 +1,6 @@
 .fact__container {
     justify-content: space-between;
-    gap:20px
+    gap:20px;
 }
 
 .fact__container .title {
