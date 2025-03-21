@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 650px) {
+    #projects .section__wrapper{
+        padding-top: 0;
+    }
+
     #projects .projects__container {
         grid-template-columns: 100%;
     }

@@ -22,8 +22,8 @@
 }
 
 .pyramid .sides__container .side {
-  width: 700px;
-  height: 700px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: 0;
   left: 0;

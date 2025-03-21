@@ -2,6 +2,9 @@
     position: relative;
     box-shadow: var(--card-primary-shadow);
     clip-path: var(--polygon);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project__card .project__card-top {
@@ -91,4 +94,23 @@
 
 .project__card .stack img {
     object-fit: contain;
+}
+
+.project__card .links {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project__card .links span{
+    margin-left: 2px;
+}
+
+.project__card .links a:hover{
+    transition: var(--transition);
+}
+
+.project__card .links a:hover{
+    color: var(--color-muted);
+    transform: scale(1.05);
 }
