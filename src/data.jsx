@@ -297,11 +297,6 @@ export const contactInfo = [
 ];
 export const socialHandles = [
   {
-    name: "Fiverr",
-    icon: <SiFiverr />,
-    link: "",
-  },
-  {
     name: "Github",
     icon: <AiFillGithub />,
     link: "",
@@ -310,11 +305,6 @@ export const socialHandles = [
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
     link: "",
-  },
-  {
-    name: "Youtube",
-    icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
   },
 ];
 
