@@ -26,6 +26,11 @@
     padding: 8px;
     font-size: 1.2rem;
     font-weight: 500;
+    transition: var(--transition)
+}
+
+.navbar .tab:hover {
+    color: var(--color-muted)
 }
 
 .navbar .buttons__wrapper {

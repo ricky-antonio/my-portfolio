@@ -19,7 +19,7 @@ const Navbar = () => {
             )}
             <div
                 className="flex__center logo"
-                onClick={() => scroll.scrollToTop({ duration: 500 })}
+                onClick={() => scroll.scrollToTop({ duration: 200 })}
             >
                 <Logo />
             </div>
@@ -41,10 +41,11 @@ const Navbar = () => {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={500}
+                            duration={200}
                             className="tab"
-                            activeClass="btn__shine"
+                            // activeClass="btn__shine"
                             key={index}
+                            onClick={() => setShowSidebar(false)}
                         >
                             {item.name}
                         </Link>

@@ -1,4 +1,6 @@
 export { default as logo } from "./rm-logo-white.png";
+export { default as nucamp } from "./nucamp-logo.png";
+export { default as devry } from "./devry-logo.png";
 export { default as profile1 } from "./profile-1.png";
 export { default as profile2 } from "./profile-2.jpeg";
 export { default as profile3 } from "./profile-3.jpeg";

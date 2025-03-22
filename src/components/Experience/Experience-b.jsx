@@ -1,11 +1,12 @@
-import "./About.css";
+import "./Experience.css";
 import Hole from "../../ui/Hole";
 import { skills } from "../../data";
 import CardUI from "../../assets/CardUi";
+import { experience } from "../../data";
 
-const About = () => {
+const Experience = () => {
     return (
-        <section id="about">
+        <section id="experience">
             <div className="card section__wrapper">
                 <Hole />
                 <div className="column left-column">
@@ -29,13 +30,13 @@ const About = () => {
                     />
                 </div>
                 <div className="column right-column">
-                    <h2 className="shine">About Me</h2>
-                    <h1 className="title">
+                    <h2 className="shine">about Me</h2>
+                    <h2 className="title">
                         I am{" "}
                         <span className="color__primary">
                             Ricardo Monterrosa
                         </span>
-                    </h1>
+                    </h2>
                     <p className="text__muted description">
                         I'm a skilled front-end React developer with a passion
                         for crafting sleek, engaging, and user-focused web
@@ -51,4 +52,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Experience;

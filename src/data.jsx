@@ -17,6 +17,8 @@ import {
   profile3,
   profile4,
   profile5,
+  devry,
+  nucamp,
   figma,
   sketch,
   xd,
@@ -34,9 +36,9 @@ import {
 
 export const menu = [
   { name: "About" },
-  { name: "Services" },
-  { name: "Skill" },
+  { name: "Skills" },
   { name: "Projects" },
+  { name: "Experience" },
   { name: "Contact" },
 ];
 
@@ -207,30 +209,100 @@ export const projects = [
   },
 ];
 
+export const education = [
+  {
+    title: "Computer Engineering",
+    degree: "Bachelor of Science",
+    school: "Devry University",
+    location: "Pomona, CA",
+    logo: devry
+  },
+  {
+    title: "Full stack web development",
+    school: "Nucamp coding bootcamp",
+    location: "San Diego, CA",
+    logo: nucamp
+  },
+]
+
+export const experience = [
+  {
+    title: "Web Developer",
+    employer: "La Jolla Institute",
+    location: "San Diego, CA",
+    dates: "2022 – 2025",
+    highlights: [
+      "Designed and developed custom WordPress themes using PHP, improving user experience and functionality.",
+      "Integrated APIs to dynamically update website content, ensuring data accuracy and seamless updates.",
+      "Automated repetitive tasks and streamlined workflows using Salesforce, increasing operational efficiency."
+    ]
+  },
+  {
+    title: "Senior Web Developer",
+    employer: "Digital Rocket",
+    location: "San Diego, CA",
+    dates: "2021",
+    highlights: [
+      "Managed project lifecycles, leading junior developers to deliver high-quality web applications on schedule.",
+      "Built and deployed websites using WordPress and Elementor, optimizing workflows for client satisfaction.",
+      "Defined project scopes with stakeholders and ensured alignment with client goals through clear communication."
+    ]
+  },
+  {
+    title: "Software Engineer Student",
+    employer: "Nucamp",
+    location: "San Diego, CA",
+    dates: "2020 – 2021",
+    highlights: [
+      "Built responsive web applications with React, Node.js, and Bootstrap, implementing scalable solutions.",
+      "Collaborated on Agile team projects, developing dynamic front-end applications and integrating RESTful APIs.",
+      "Completed full-stack projects such as a task manager app and a blog platform with authentication."
+    ]
+  },
+  {
+    title: "Project Administrator",
+    employer: "Honeywell",
+    location: "Chicago, IL",
+    dates: "2018 – 2019",
+    highlights: [
+      "Coordinated production timelines by streamlining workflows and aligning cross-functional teams.",
+      "Managed full-cycle proposal and procurement processes, meeting 100% of customer requirements on schedule.",
+      "Developed process maps to reduce inefficiencies and improve communication between engineering and manufacturing teams."
+    ]
+  },
+  {
+    title: "Administrative Services Analyst II",
+    employer: "County of Riverside",
+    location: "Riverside, CA",
+    dates: "2014 – 2017",
+    highlights: [
+      "Designed and optimized SQL relational databases, improving data accessibility for multiple departments.",
+      "Managed large-scale equipment deployment projects across departments, ensuring timely implementation.",
+      "Produced actionable insights with data-driven reports, supporting strategic decision-making processes."
+    ]
+  }
+];
+
+
 export const skills = [
   {
-    title: "UI/UX",
+    title: "Technical Skills",
     data: [
-      {
-        skill: "Figma",
-        level: "Experienced",
-        logo: figma,
-      },
-      {
-        skill: "Sketch",
-        level: "Intermediate",
-        logo: sketch,
-      },
+      // {
+      //   skill: "Figma",
+      //   level: "Experienced",
+      //   logo: figma,
+      // },
+      // {
+      //   skill: "Sketch",
+      //   level: "Intermediate",
+      //   logo: sketch,
+      // },
       {
         skill: "XD",
         level: "Intermediate",
         logo: xd,
       },
-    ],
-  },
-  {
-    title: "Frontend Development",
-    data: [
       {
         skill: "HTML",
         level: "Experienced",

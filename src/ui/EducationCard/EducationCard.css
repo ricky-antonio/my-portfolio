@@ -1,0 +1,61 @@
+.education__card {
+    padding: 30px 40px;
+    cursor: pointer;
+    clip-path: var(--polygon);
+    transition: var(--transition);
+}
+
+.education__card:hover {
+    background: var(--color-ui-2);
+}
+
+.education__card .title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.education__card .education__content {
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.education__card .education__details {
+    gap: 1rem;
+}
+
+.education__card .education__logo {
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.education__card .education_logo img {
+    object-fit: contain;
+}
+
+
+.education__card .education__details .education__title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.education__card .education__details .education__degree {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+
+
+/* Responsiveness */
+
+@media (max-width: 765px) {
+    .education__card .education__details .education__title {
+        font-size: 1.2rem;
+    }
+
+   
+}
