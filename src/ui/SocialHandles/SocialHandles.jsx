@@ -6,15 +6,15 @@ const SocialHandles = () => {
         <div className="social__handles__container">
             {socialHandles.map((social) => (
                 <a
-                href={social.link}
-                target="_blank"
-                className="icon_container social__handle"
-                key={social.name}
+                    href={social.link}
+                    target="_blank"
+                    className="icon_container social__handle"
+                    key={social.name}
                 >
                     <span className="flex__center tooltip">
                         {social.icon} {social.name}
                     </span>
-                    {social.icon}
+                    <img src={social.logo} alt={social.name} className="logo" />
                 </a>
             ))}
         </div>

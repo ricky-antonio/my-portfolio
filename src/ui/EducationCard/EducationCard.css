@@ -1,6 +1,5 @@
 .education__card {
     padding: 30px 40px;
-    cursor: pointer;
     clip-path: var(--polygon);
     transition: var(--transition);
 }

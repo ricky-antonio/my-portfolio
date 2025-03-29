@@ -28,14 +28,12 @@
 }
 
 #experience .experience__group .experience__container {
-    padding: 20px;
-    min-width: 350px;
-    max-width: 530px;
-    min-height: 350px;
+    padding: 10px;
+    max-width: 360px;
 }
 
 #experience .experience__details h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -51,6 +49,8 @@
 
 #experience .highlight__container .highlight {
     margin-top: 10px;
+    font-size: .95rem;
+    line-height: 1.5rem;
 }
 
 #experience hr {

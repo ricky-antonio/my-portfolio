@@ -44,7 +44,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact">
+        <section id="contact" className="fade-in">
             <div className="section__wrapper">
                 <div className="pyramid__container">
                     <Pyramid />

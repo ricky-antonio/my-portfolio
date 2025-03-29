@@ -12,6 +12,7 @@
   --color-white: #ffffff;
   --color-ui-1: #171717;
   --color-ui-2: #212121;
+  --color-ui-3: #646464;
   --color-ui-2-rgb: 33, 33, 33;
   --transition: all 0.4s ease-in-out;
   --gray-border: solid 0.5px lightgray;
@@ -194,7 +195,7 @@ img {
 .g-text {
   background: linear-gradient(
     to right,
-    var(--color-primary) 0%,
+    var(--color-ui-3) 0%,
     var(--color-white) 100%
   );
   -webkit-background-clip: text;
@@ -248,3 +249,15 @@ img {
   margin-bottom: 40px;
   text-align: center;
 }
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+

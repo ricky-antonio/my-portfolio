@@ -4,7 +4,7 @@ import "./Projects.css";
 
 const Projects = () => {
     return (
-        <section id="projects">
+        <section id="projects" className="fade-in">
             <div className="section__wrapper">
                 <div className="section__header">
                     <h2 className="shine">Projects</h2>

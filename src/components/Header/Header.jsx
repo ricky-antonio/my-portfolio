@@ -20,7 +20,7 @@ const code = `const developer = {
 
 const Header = () => {
     return (
-        <header id="header">
+        <header id="header" className="fade-in">
             <BreathCircle />
             <div className="section__wrapper">
                 <div className="grid upper">

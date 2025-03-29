@@ -5,7 +5,7 @@ import "./Skills.css";
 
 const Skills = () => {
     return (
-        <section id="skills">
+        <section id="skills" className="fade-in">
             <div className="section__wrapper">
                 <div className="section__header">
                     <h2 className="shine">My Skills</h2>

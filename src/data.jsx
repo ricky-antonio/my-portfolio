@@ -13,14 +13,9 @@ import {
   project4,
   project5,
   project6,
-  profile2,
-  profile3,
-  profile4,
-  profile5,
   devry,
   nucamp,
   figma,
-  sketch,
   xd,
   css,
   html,
@@ -29,9 +24,10 @@ import {
   bootstrap,
   react,
   reactnative,
+  python,
+  linkedin,
+  github,
   emailicon,
-  messengericon,
-  whatsappicon,
 } from "./assets";
 
 export const menu = [
@@ -42,45 +38,14 @@ export const menu = [
   { name: "Contact" },
 ];
 
-export const services = [
-  {
-    title: "UI/UX Design",
-    icon: <FaPaintBrush />,
-    description: `Crafting visually stunning and user-centric designs that ensure seamless user experiences. 
-                  From wireframes to high-fidelity prototypes, I focus on creating intuitive interfaces that 
-                  blend creativity and functionality, enhancing engagement and usability.`,
-  },
-  {
-    title: "Web Development",
-    icon: <FaCodeCompare />,
-    color: "blueviolet",
-    colorRGB: "138, 43, 226",
-    description: `Building responsive, dynamic, and high-performance websites tailored to your needs. 
-    Using modern technologies like React, Node.js, and more, I ensure your site is optimized 
-    for speed, scalability, and accessibility, delivering a robust online presence.`,
-  },
-  {
-    title: "Content Creation",
-    icon: <GiIdea />,
-    color: "var(--color-success)",
-    colorRGB: "var(--color-success-rgb)",
-    description: `Producing compelling digital content that resonates with your audience. From blogs 
-                  and technical documentation to engaging website copy, I ensure your brand's message 
-                  is clear, impactful, and aligned with your business goals.`,
-  },
-];
-
 export const projects = [
   {
-    title: "AI Powered School",
+    title: "Apple iPhone Clone",
     image: project1,
     category: "UI/UX",
-    description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                     learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                     and intuitive navigation, our design empowers educators and students alike. Experience 
-                     innovation at its finest as we pave the way for a smarter, more efficient educational 
-                     journey.`,
-    demoLink: "https://google.com/",
+    description: `Dynamic site blending GSAP animations and cutting-edge 3D graphics technology for engaging experiences`,
+    demoLink: "/apple-iphone",
+    githubLink: "https://github.com/ricky-antonio/apple-clone",
     stacks: [
       {
         name: "XD",
@@ -89,15 +54,12 @@ export const projects = [
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Brainwave Landing Page",
     image: project2,
-    category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    category: "UI/UX",
+    description: `Modern portfolio site powered by Tailwind CSS, showcasing sleek design and professional expertise.`,
+    demoLink: "/brainwave",
+    githubLink: "https://github.com/ricky-antonio/brainwave",
     stacks: [
       {
         name: "ReactJs",
@@ -118,15 +80,12 @@ export const projects = [
     ],
   },
   {
-    title: "Robotic Engineering Web Application",
+    title: "WorldWise Travel Tracker",
     image: project3,
-    category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
+    category: "Web App",
+    description: `Interactive web app powered by a map API to visualize and track your adventures.`,
+    demoLink: "/",
+    githubLink: "https://github.com/ricky-antonio/worldwise",
     stacks: [
       {
         name: "ReactJs",
@@ -143,12 +102,12 @@ export const projects = [
     ],
   },
   {
-    title: "Project Management application",
+    title: "Cryptoverse Stats & Insights",
     image: project4,
-    category: "Apps",
-    description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                     Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://google.com/",
+    category: "Web App",
+    description: `Comprehensive crypto stats app leveraging Coinranking and News APIs, featuring dynamic price charts.`,
+    demoLink: "/cryptoverse",
+    githubLink: "https://github.com/ricky-antonio/react-api-cryptoverse",
     stacks: [
       {
         name: "React Native",
@@ -165,11 +124,12 @@ export const projects = [
     ],
   },
   {
-    title: "Mobile bank - App Design",
+    title: "usePopcorn Movie Finder",
     image: project5,
-    category: "UI/UX",
-    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
-    demoLink: "https://google.com/",
+    category: "Web App",
+    description: `User-friendly app for discovering, rating, and saving your favorite movies in one place.`,
+    demoLink: "/",
+    githubLink: "https://github.com/ricky-antonio/usepopcorn",
     stacks: [
       {
         name: "Figma",
@@ -178,16 +138,12 @@ export const projects = [
     ],
   },
   {
-    title: "Quiz App Development",
+    title: "Lights Out",
     image: project6,
-    category: "Apps",
-    description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
-    demoLink: "https://google.com/",
+    category: "Web App",
+    description: `Interactive React-based game showcasing core concepts like state, props, and component reusability.`,
+    demoLink: "/lights",
+    githubLink: "https://github.com/ricky-antonio/react-lightsout",
     stacks: [
       {
         name: "React Native",
@@ -259,28 +215,28 @@ export const experience = [
       "Completed full-stack projects such as a task manager app and a blog platform with authentication."
     ]
   },
-  {
-    title: "Project Administrator",
-    employer: "Honeywell",
-    location: "Chicago, IL",
-    dates: "2018 – 2019",
-    highlights: [
-      "Coordinated production timelines by streamlining workflows and aligning cross-functional teams.",
-      "Managed full-cycle proposal and procurement processes, meeting 100% of customer requirements on schedule.",
-      "Developed process maps to reduce inefficiencies and improve communication between engineering and manufacturing teams."
-    ]
-  },
-  {
-    title: "Administrative Services Analyst II",
-    employer: "County of Riverside",
-    location: "Riverside, CA",
-    dates: "2014 – 2017",
-    highlights: [
-      "Designed and optimized SQL relational databases, improving data accessibility for multiple departments.",
-      "Managed large-scale equipment deployment projects across departments, ensuring timely implementation.",
-      "Produced actionable insights with data-driven reports, supporting strategic decision-making processes."
-    ]
-  }
+  // {
+  //   title: "Project Administrator",
+  //   employer: "Honeywell",
+  //   location: "Chicago, IL",
+  //   dates: "2018 – 2019",
+  //   highlights: [
+  //     "Coordinated production timelines by streamlining workflows and aligning cross-functional teams.",
+  //     "Managed full-cycle proposal and procurement processes, meeting 100% of customer requirements on schedule.",
+  //     "Developed process maps to reduce inefficiencies and improve communication between engineering and manufacturing teams."
+  //   ]
+  // },
+  // {
+  //   title: "Administrative Services Analyst II",
+  //   employer: "County of Riverside",
+  //   location: "Riverside, CA",
+  //   dates: "2014 – 2017",
+  //   highlights: [
+  //     "Designed and optimized SQL relational databases, improving data accessibility for multiple departments.",
+  //     "Managed large-scale equipment deployment projects across departments, ensuring timely implementation.",
+  //     "Produced actionable insights with data-driven reports, supporting strategic decision-making processes."
+  //   ]
+  // }
 ];
 
 
@@ -298,11 +254,11 @@ export const skills = [
       //   level: "Intermediate",
       //   logo: sketch,
       // },
-      {
-        skill: "XD",
-        level: "Intermediate",
-        logo: xd,
-      },
+      // {
+      //   skill: "XD",
+      //   level: "Intermediate",
+      //   logo: xd,
+      // },
       {
         skill: "HTML",
         level: "Experienced",
@@ -338,6 +294,11 @@ export const skills = [
         level: "Experienced",
         logo: reactnative,
       },
+      {
+        skill: "Python",
+        level: "Experienced",
+        logo: python,
+      },
     ],
   },
 ];
@@ -350,63 +311,18 @@ export const contactInfo = [
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
-  {
-    name: "Messenger",
-    value: "Emmanuel Eze",
-    link: "http://m.me/profile?id=profile-i",
-    icon: messengericon,
-    btnIcon: <RiMessengerLine />,
-    color: "rgb(139,74,251)",
-  },
-  {
-    name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
-    icon: whatsappicon,
-    btnIcon: <BsWhatsapp />,
-    color: "rgb(38,234,112)",
-  },
 ];
 export const socialHandles = [
   {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    logo: github,
+    link: "https://github.com/ricky-antonio",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
-  },
-];
-
-export const testimonials = [
-  {
-    avatar: profile2,
-    name: "Samuel Eze",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile3,
-    name: "Emmanuel Joseph",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile4,
-    name: "Gloria Chiwendu",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile5,
-    name: "Precious Stone",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    logo: linkedin,
+    link: "https://www.linkedin.com/in/ricardomonterrosa/",
   },
 ];

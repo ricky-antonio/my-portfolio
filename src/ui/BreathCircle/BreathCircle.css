@@ -1,6 +1,6 @@
 .breath__circle {
   --size: 550px;
-  --duration: 2s;
+  --duration: 4s;
   --logo-color: grey;
   --background: linear-gradient(
     0deg,

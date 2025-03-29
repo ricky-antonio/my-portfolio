@@ -14,9 +14,9 @@ const SkillCard = ({ title, data }) => {
                         </div>
                         <div>
                             <h4 className="skill__name">{skill.skill}</h4>
-                            <small className="text__muted skill__level">
+                            {/* <small className="text__muted skill__level">
                                 {skill.level}
-                            </small>
+                            </small> */}
                         </div>
                     </article>
                 ))}

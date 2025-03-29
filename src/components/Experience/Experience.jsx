@@ -4,7 +4,7 @@ import { experience } from "../../data";
 
 const Experience = () => {
     return (
-        <section id="experience">
+        <section id="experience" className="fade-in">
             <div className="card section__wrapper">
                 <Hole />
                 <h2 className="shine">Experience</h2>

@@ -1,14 +1,16 @@
 import { FaArrowRight } from "react-icons/fa";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ title, category, image, description, stacks }) => {
+const ProjectCard = ({ title, category, image, description, stacks,demoLink, githubLink }) => {
     return (
         <div className="card project__card">
             <div className="project__card-container">
             <div className="project__card-top">
+                <a href={demoLink}>
                 <div className="picture">
                     <img src={image} alt={title} />
                 </div>
+                </a>
             </div>
 
             <div className="project__card-bottom">
@@ -33,10 +35,10 @@ const ProjectCard = ({ title, category, image, description, stacks }) => {
             </div>
             </div>
             <div className="links">
-                <a href="#">
+                <a href={githubLink}>
                     GitHub Repo <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href={demoLink}>
                     View Project <span>&rarr;</span>
                 </a>
             </div>
