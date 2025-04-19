@@ -11,7 +11,7 @@ const code = `const developer = {
     hobby: () => {
         console.log("eat...");
         console.log("code...");
-        console.log("jiu jitsu..");
+        console.log("jiu jitsu...");
         console.log("sleep...");
         console.log("repeat...");
         }
@@ -26,12 +26,12 @@ const Header = () => {
                 <div className="grid upper">
                     <div className="column">
                         <div className="title__heading">
-                            Front-End Software Engineer Specializing in&nbsp;
+                            Software Engineer Specializing in&nbsp;
                             <span>React</span>
                         </div>
                     </div>
 
-                    <div className="column">
+                    <div className="column avatar">
                         <img
                             src={profile1}
                             className="profile__photo"
@@ -51,7 +51,7 @@ const Header = () => {
                             </span>
                         </h2>
                         <p className="text__muted description">
-                            A skilled front-end React developer with a
+                            A skilled React developer with a
                             passion for crafting sleek, engaging, and
                             user-focused web experiences. Combining creativity
                             and technical expertise, I thrive on building

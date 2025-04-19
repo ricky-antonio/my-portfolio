@@ -6,7 +6,7 @@ const ProjectCard = ({ title, category, image, description, stacks,demoLink, git
         <div className="card project__card">
             <div className="project__card-container">
             <div className="project__card-top">
-                <a href={demoLink}>
+                <a href={demoLink} target="_blank">
                 <div className="picture">
                     <img src={image} alt={title} />
                 </div>
@@ -35,10 +35,10 @@ const ProjectCard = ({ title, category, image, description, stacks,demoLink, git
             </div>
             </div>
             <div className="links">
-                <a href={githubLink}>
+                <a href={githubLink} target="_blank">
                     GitHub Repo <span>&rarr;</span>
                 </a>
-                <a href={demoLink}>
+                <a href={demoLink} target="_blank">
                     View Project <span>&rarr;</span>
                 </a>
             </div>
