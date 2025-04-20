@@ -11,8 +11,8 @@ import {
     project6,
     devry,
     nucamp,
-    css,
-    javascript,
+    // css,
+    // javascript,
     tailwind,
     react,
     python,
@@ -84,14 +84,6 @@ export const projects = [
             {
                 name: "tailwind",
                 logo: tailwind,
-            },
-            {
-                name: "CSS",
-                logo: css,
-            },
-            {
-                name: "JavaScript",
-                logo: javascript,
             },
         ],
     },
